@@ -7,4 +7,4 @@ Files ending in crop.py crop out the phase-subband subplot and pulses of best pr
 Note: At the time of this commit, this code is especially useful to PRESTO-generated plots and Pulsar Search Collaboratory (PSC) members. chi-squared-filter.py, for example, includes login and data download automation. I am working on adapting this code to other pulsar data, such as FAST and GBNCC data.
 
 The repo will be updated with the neural network component soon.
-As of November 2019, TensorFlow is only available for Python 3.7 64-bit. Download this release if you are not using it already.
+As of November 2019, TensorFlow is only available for Python 3.7 64-bit. Download this release here: https://www.python.org/downloads/release/python-375/ if you are not using it already.
