@@ -27,7 +27,7 @@ for i in range(10):  #how many datasets?
     df=pd.read_html(text, header=0)
     df=df[0]
     for i in range(len(df)):
-        if df['χ2'].iloc[i]>2 and df['DM (pc cm-3)'].iloc[i]>2 and df['DM (pc cm-3)'].iloc[i]<400: #for tighter filter, check galactic electron density map and alter DM accordingly
+        if df['χ2'].iloc[i]>1 and df['DM (pc cm-3)'].iloc[i]>2 and df['DM (pc cm-3)'].iloc[i]<400: #for tighter filter, check galactic electron density map and alter DM accordingly
             plot_number.append(i+1)
             DM.append(df['DM (pc cm-3)'].iloc[i])
             RA.append(df["RA"].iloc[i])
