@@ -1,4 +1,4 @@
-# Pulsar-Search
+# PulSort
 This repository contains programs that optimize the search for pulsars among graphs containing pulsar signals, radio frequency interference and noise. 
 
 chi-squared-filter.py filters out up to 80% of the noise in the data, based on chi-squared (NOT reduced chi-squared) and dispersion measure (DM) values for each plot. This serves as an initial filter. As a preliminary measure, I have assigned the default upper limit DM as 400. In future, I will link this component to a galactic DM model.
