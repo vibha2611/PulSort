@@ -6,7 +6,7 @@ crop.py crops out the phase-subband subplot and pulses of best profile subplot f
 
 Note: At the time of this commit, this code is especially useful to PRESTO-generated plots and Pulsar Search Collaboratory (PSC) members. chi-squared-filter.py, for example, includes login and data download automation. 
 
-The repo will be updated with the neural network component soon.
+<b>The complete code will be available by early May.</b>
 
 As of November 2019, the latest Python release with which TensorFlow is compatible is Python 3.7 64-bit. Download this release here: https://www.python.org/downloads/release/python-375/ if you are not using it already.
 
