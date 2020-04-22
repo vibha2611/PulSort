@@ -8,5 +8,5 @@ PulSort is a machine learning algorithm employing neural networks written to dis
 This script uses Selenium to log in to the Pulsar Search Collaboratory database and download plots that pass a prescribed filter based on their values for dispersion measure (DM) and the chi-squared test. If no upper limit for DM is specified the default cutoff value is 400. Lowering the minimum chi-squared value allows a higher number of plots to pass through the filter. I would recommend using a value of 1.5 or above for this parameter.
 
 <h4>Future focus areas and limitations</h4>
-1. Security. Will probably incorporate some form of password concealment during entry and make the login process more user-friendly.
+1. Security. Will probably incorporate some form of password concealment during entry and make the login process more user-friendly. <br>
 2. Optimum value for chi-square is unknown.
