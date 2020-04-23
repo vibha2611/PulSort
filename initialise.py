@@ -10,16 +10,16 @@ install('scipy')
 install('Pillow')
 install('matplotlib')
 install('numpy')
+install('pandas')
+install('selenium')
 
-parents=[r"C:\ProgramFiles\Phase Subband", r"C:\ProgramFiles\Pulse Profile"]
-for path in parents:
-    if not os.path.exists(path):
-        os.makedirs(path)
+parent=r"C:\Program Files\PulSort"
+if not os.path.exists(parent):
+    os.makedirs(parent)
 
-children=[r"\Pulsar", r"\Not a pulsar"]
+children=[r"\phase_subband", r"\pulse_profile"]
 
 for child in children:
-    for parent in parents:
         path=parent+child
         if not os.path.exists(path):
             os.makedirs(path)
