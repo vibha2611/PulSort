@@ -1,6 +1,6 @@
 #inputs
 search_id=int(input("Enter search ID: "))  #will not work for dataset no. 219 and below
-directory=input("Enter path to download complete plots to: ")
+directory=r"C:\Program Files\PulSort"
 driver=input("Enter driver filepath: ")
 no_datasets=int(input("How many datasets? "))
 min_chi_squared=float(input("Enter minimum chi-squared value for the filter: "))
@@ -11,8 +11,8 @@ if custom_dm=="Y" or custom_dm=='y':
 else:
     max_dm=400
     
-ps_subfolder=input("Enter path of folder into which phase-subband subplots should be downloaded: ")
-pp_subfolder=input("Enter path of folder into which pulse profile subplots should be downloaded: ")
+ps_subfolder=r"C:\Program Files\PulSort\phase_subband"
+pp_subfolder=r"C:\Program Files\PulSort\pulse_profile"
 
 pp_model= input("Enter pulse profile model filepath: ")
 ps_model= input("Enter phase-subband model filepath: ")
