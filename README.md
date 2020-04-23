@@ -7,7 +7,7 @@ PulSort is a machine learning algorithm employing neural networks written to dis
 1) Install Python.<br>
 2) Run <tt>initialise.py</tt>.<br>
 3) Run <tt>pulsort_combined.py</tt>. <br>
-That's all!<br>
+That's all!<br><br>
 <b>Potential errors/questions</b>:<br>
 Q1)<b> What value do I enter when prompted to enter a search ID?</b><br>
 The URL of a PSC dataset has a sequence of numbers at the end. This sequence should be entered as the search ID. This is <i>not</i> the same as the dataset number.<br>
