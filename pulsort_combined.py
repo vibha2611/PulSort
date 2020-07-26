@@ -1,4 +1,7 @@
 #inputs
+import getpass
+username=input("Enter your username: ")
+password=getpass.getpass("Enter your PSC password: ")
 search_id=int(input("Enter search ID: "))  #will not work for dataset no. 219 and below
 directory=r"C:\Program Files\PulSort"
 driver=input("Enter driver filepath: ")
@@ -32,9 +35,9 @@ def download_plots(search_id, directory, no_datasets, min_chi_squared, max_dm):
 
     #login
     username = browser.find_element_by_name('username')
-    username.send_keys('<your username>')
+    username.send_keys('username')
     password = browser.find_element_by_name('password')
-    password.send_keys('<your password>')
+    password.send_keys('password')
     browser.find_element_by_name("submit").click()
 
     #initialise lists
