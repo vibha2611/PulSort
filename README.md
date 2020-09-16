@@ -1,4 +1,6 @@
 # PulSort
+#TODO link data folder, upload predict.py, directory names, link to poster.
+
 ## Introduction
 PulSort uses two convolutional neural networks (CNNs) to predict whether a given PRESTO plot exhibits a pulsar signal or not. PulSort was trained on ~11000 images from the Pulsar Search Collaboratory (PSC) database, which contains Green Bank Telescope (GBT) observations at time intervals of 8.192 x 10<sup>-5</sup> and in observing frequency channels of 0.02 MHz<sup>1</sup>. Multiple trials were run with both CNNs to arrive at suitable hyperparameters for the models. 
 
