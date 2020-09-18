@@ -9,7 +9,7 @@ PulSort uses two convolutional neural networks (CNNs) to predict whether a given
 ## Files on this repo
 ``initialise.py``: Installs packages required to run PulSort and creates a folder structure on the local machine.
 
-``filter_get_plots.py``: This script logs into the PSC database and downloads prepfold plots that pass the dispersion measure (DM) and chi-squared filter. The use of the Selenium package allows the user to observe the iteration through plots visually. 
+``filter_get_plots.py``: This script logs into the PSC database and downloads prepfold plots that pass the dispersion measure (DM) and chi-squared filter. The use of the Selenium package allows the user to observe the iteration through plots visually. The DM/chi-squared filter usually rejects 80%-90% of the data it looks at.
 
 ``ra_finder.py``: PSC datasets are organised by right ascension (RA) with variable declination (Dec). This script takes advantage of this fact to return the RA values that have the most plots falling within a particular DM range (default is 2-400). *Deprecated with the release of* ``filter_get_plots.py``.
 
