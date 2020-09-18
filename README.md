@@ -1,5 +1,5 @@
 # PulSort
-#TODO upload predict.py, directory names, link to poster.
+#TODO directory names, update pulsort_combined.
 
 ## Introduction
 PulSort uses two convolutional neural networks (CNNs) to predict whether a given PRESTO plot exhibits a pulsar signal or not. PulSort was trained on ~11000 images from the Pulsar Search Collaboratory (PSC) database, which contains Green Bank Telescope (GBT) observations at time intervals of 8.192 x 10<sup>-5</sup> and in observing frequency channels of 0.02 MHz<sup>1</sup>. Multiple trials were run with both CNNs to arrive at suitable hyperparameters for the models. 
@@ -28,3 +28,7 @@ PulSort uses two convolutional neural networks (CNNs) to predict whether a given
 ``/Models/frequency_phase_final``: Final frequency vs. phase model.
 
 ``data.md``: Link to Google Drive folder containing train and test datasets.
+
+## Notes
+If you find any bugs, please submit an issue report.
+September 2020 edit: The PSC database is undergoing updates, so ``filter_get_plots.py`` will not work. I may or may not maintain this code post the update.
