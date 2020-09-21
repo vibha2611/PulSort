@@ -1,5 +1,5 @@
 # PulSort
-#TODO directory names, update pulsort_combined.
+#TODO directory names, update pulsort_combined, references.
 
 ## Introduction
 PulSort uses two convolutional neural networks (CNNs) to predict whether a given PRESTO plot exhibits a pulsar signal or not. PulSort was trained on ~11000 images from the Pulsar Search Collaboratory (PSC) database, which contains Green Bank Telescope (GBT) observations at time intervals of 8.192 x 10<sup>-5</sup> and in observing frequency channels of 0.02 MHz<sup>1</sup>. Multiple trials were run with both CNNs to arrive at suitable hyperparameters for the models. 
@@ -16,6 +16,8 @@ PulSort uses two convolutional neural networks (CNNs) to predict whether a given
 ``crop.py``: Crops the pulse profile and frequency vs. phase subplots from the downloaded .pfd files.
 
 ``predict.py``: Returns a prediction (pulsar, not a pulsar, harmonic, etc.) for a given subplot. 
+
+``prep_train_data.py``: A script to reshape cropped sections into a standard size for input to the neural networks and save features and labels in binary files.
 
 ``pulsort_combined.py``: Script combining ``filter_get_plots.py``, ``crop.py`` and ``predict.py``. 
 
