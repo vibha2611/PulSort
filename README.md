@@ -25,6 +25,8 @@ PulSort uses two convolutional neural networks (CNNs) to predict whether a given
 
 ``/Augmentation/flip.ps1``: Powershell script to flip images. 
 
+``/Augmentation/flip.py``: Python script to flip images.
+
 ``/Models/pulse_profile_final``: Final pulse profile model.
 
 ``/Models/frequency_phase_final``: Final frequency vs. phase model.
